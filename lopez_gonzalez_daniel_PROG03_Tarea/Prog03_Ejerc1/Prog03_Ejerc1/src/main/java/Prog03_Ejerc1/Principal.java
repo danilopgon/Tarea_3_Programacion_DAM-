@@ -8,7 +8,7 @@ public class Principal {
         /*instancia 1, con el primer constructor*/
         System.out.println("Primera fecha, inicializada con el primer constructor");
         Fecha objFecha1 = new Fecha(Fecha.enumMes.DICIEMBRE);
-        objFecha1.setDia(-3);
+        objFecha1.setDia(7);
         objFecha1.setAnio(2022);
         System.out.println(objFecha1.toString());
         System.out.println(objFecha1.isSummer() ? "Es verano" : "No es verano");
